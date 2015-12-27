@@ -5,7 +5,7 @@ import (
 	"sync"
 
 	"github.com/juju/errors"
-	"github.com/siddontang/go-mysql/canal"
+	"github.com/puper/go-mysql/canal"
 	"github.com/siddontang/go/log"
 )
 

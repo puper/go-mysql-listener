@@ -2,7 +2,7 @@ package river
 
 import (
 	"github.com/puper/go-jsonrpc/jsonrpc"
-	"github.com/siddontang/go-mysql/canal"
+	"github.com/puper/go-mysql/canal"
 	"time"
 	"log"
 )
