@@ -61,7 +61,7 @@ func (r *River) makeRequest(rule *Rule, request *map[string]interface{}) error {
 			return nil
 		}
 		log.Println(err)
-		time.Sleep(time.Second * 1)
+		time.Sleep(time.Second * time.Duration(i))
 		if i < 3 {
 			i++
 		}
