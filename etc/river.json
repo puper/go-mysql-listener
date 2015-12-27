@@ -1,0 +1,28 @@
+{
+	"dataDir": "./data",
+	"mysql": {
+		"addr": "127.0.0.1:3306",
+		"user": "root",
+		"pass": "root",
+		"serverId": 1001,
+		"mysqldump": "mysqldump",
+		"dbs": ["test"],
+		"ignoreTables": {
+			"test": []
+		}
+	},
+	"rules": [
+		{
+			"db": "test",
+			"table": "test",
+			"url": "http://localhost/jsonrpc.php?i=1",
+			"method": "test1"
+		},
+		{
+			"db": "test",
+			"table": "ft",
+			"url": "http://localhost/jsonrpc.php?i=2",
+			"method": "ft"
+		}
+	]
+}
