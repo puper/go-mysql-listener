@@ -48,7 +48,7 @@ func (h *rowsEventHandler) Do(e *canal.RowsEvent) error {
 }
 
 func (h *rowsEventHandler) String() string {
-	return "ESRiverRowsEventHandler"
+	return "RiverRowsEventHandler"
 }
 
 func (r *River) makeRequest(rule *Rule, request *map[string]interface{}) error {
