@@ -1,0 +1,70 @@
+{
+	"ImportPath": "github.com/puper/go-mysql-listener",
+	"GoVersion": "go1.5rc1",
+	"Packages": [
+		"./cmd/go-mysql-listener"
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/BurntSushi/toml",
+			"Comment": "v0.1.0-21-g056c9bc",
+			"Rev": "056c9bc7be7190eaa7715723883caffa5f8fa3e4"
+		},
+		{
+			"ImportPath": "github.com/juju/errors",
+			"Rev": "1b5e39b83d1835fa480e0c2ddefb040ee82d58b3"
+		},
+		{
+			"ImportPath": "github.com/puper/go-jsonrpc/jsonrpc",
+			"Rev": "85b193ab3878401b0357e850e1545ddbfbb4dcaf"
+		},
+		{
+			"ImportPath": "github.com/puper/go-mysql/canal",
+			"Rev": "54cc0dc04b34a9825e051fb4ebce143efb04decb"
+		},
+		{
+			"ImportPath": "github.com/satori/go.uuid",
+			"Rev": "d41af8bb6a7704f00bc3b7cba9355ae6a5a80048"
+		},
+		{
+			"ImportPath": "github.com/siddontang/go-mysql/client",
+			"Rev": "c2f5b7043802a55a4c8361ab78899a8fd884c666"
+		},
+		{
+			"ImportPath": "github.com/siddontang/go-mysql/dump",
+			"Rev": "c2f5b7043802a55a4c8361ab78899a8fd884c666"
+		},
+		{
+			"ImportPath": "github.com/siddontang/go-mysql/mysql",
+			"Rev": "c2f5b7043802a55a4c8361ab78899a8fd884c666"
+		},
+		{
+			"ImportPath": "github.com/siddontang/go-mysql/packet",
+			"Rev": "c2f5b7043802a55a4c8361ab78899a8fd884c666"
+		},
+		{
+			"ImportPath": "github.com/siddontang/go-mysql/replication",
+			"Rev": "c2f5b7043802a55a4c8361ab78899a8fd884c666"
+		},
+		{
+			"ImportPath": "github.com/siddontang/go-mysql/schema",
+			"Rev": "c2f5b7043802a55a4c8361ab78899a8fd884c666"
+		},
+		{
+			"ImportPath": "github.com/siddontang/go/hack",
+			"Rev": "b151716326d7c7faf22473c0b04fb7ceac88b587"
+		},
+		{
+			"ImportPath": "github.com/siddontang/go/ioutil2",
+			"Rev": "b151716326d7c7faf22473c0b04fb7ceac88b587"
+		},
+		{
+			"ImportPath": "github.com/siddontang/go/log",
+			"Rev": "b151716326d7c7faf22473c0b04fb7ceac88b587"
+		},
+		{
+			"ImportPath": "github.com/siddontang/go/sync2",
+			"Rev": "b151716326d7c7faf22473c0b04fb7ceac88b587"
+		}
+	]
+}
